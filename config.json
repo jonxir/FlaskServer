@@ -1,0 +1,23 @@
+{
+    "router1": {
+    	"type" : "client",
+    	"wgEndpoint" : "192.168.100.3",
+    	"wgOwnPort" : "10000",
+    	"wgExternalPort" : "9878",
+    	"wgAddress" : "10.0.0.2/30",
+    	"wgOwnPrivateKey" : "0PAoJ7zdD1ktMuTLBu0dgka6bY7xy7FacMUW8dpmh20=",
+    	"wgRemotePublicKey" : "C/blFllKkcQ6RnrJ+sEOl/Gh7X06dTgJNtqRjjgLuUo=",
+    	"connectionInfo" : "manual",
+    	"inetInterface" : "ether1",
+    	"inetAddress" : "192.168.100.2/24"
+    },
+    "server": {
+    	"type" : "server",
+    	"wgOwnPort" : "9878",
+    	"wgAddress" : "10.0.0.1/30",
+    	"wgOwnPrivateKey" : "UI6rdOSqCi04hr5/kv8RcHFW+ApFg4HIV0bKjGw9tl4=",
+    	"wgRemotePublicKey" : "xzYgDOXG6sTBPHDsWt7T4p1CFRJEs1sG37cQoYYiHSI=",
+    	"inetInterface" : "ether1",
+    	"inetAddress" : "192.168.100.3/24"
+    }
+}
